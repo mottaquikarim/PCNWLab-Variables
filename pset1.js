@@ -5,7 +5,8 @@
     Create a variable called `myFullName` 
     that stores your full name as a variable
 
-*/
+*/ const myFullName = 'Van Tran';
+
 
 
 // -------------------------------------------
@@ -14,7 +15,7 @@
     Create a variable called `myHeight`
     that represents your height in inches
 
-*/
+*/const myHeight = 62;
 
 // -------------------------------------------
 /*
@@ -23,14 +24,14 @@
     that stores your year of birth
 
 */
-
+const myBirthYear = 1992;
 // -------------------------------------------
 /*
     P4:
     Create a variable called `currentYear`
     that stores current year
 
-*/
+*/ const currentYear = 2018;
 
 // -------------------------------------------
 /*
@@ -39,7 +40,8 @@
     that computes your current age
     from `myBirthYear` and `curentYear`
 
-*/
+*/ const myAge = currentYear - myBirthYear
+
 
 // -------------------------------------------
 /*
@@ -52,7 +54,10 @@
     etc
     
 
-*/
+*/ let myDescription = console.log('Hello, my name is ' +  myFullName  + ' and I am '  + myHeight + ' inches')
+myDescription
+
+
 
 // -------------------------------------------
 
