@@ -10,7 +10,7 @@
 /*
 const myFullName = Stephaie Durandisse
 */
-
+console.log(myFullName)
 // -------------------------------------------
 /*
     P2:
