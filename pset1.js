@@ -7,6 +7,7 @@
 
 */
 
+const myFullName = "Osita Igwe";
 
 // -------------------------------------------
 /*
@@ -15,6 +16,7 @@
     that represents your height in inches
 
 */
+const myHeight = 62;
 
 // -------------------------------------------
 /*
@@ -23,6 +25,7 @@
     that stores your year of birth
 
 */
+const myBrithYear = 1991;
 
 // -------------------------------------------
 /*
@@ -31,6 +34,7 @@
     that stores current year
 
 */
+let currentYear = 2018;
 
 // -------------------------------------------
 /*
@@ -40,6 +44,7 @@
     from `myBirthYear` and `curentYear`
 
 */
+let myAge = currentYear - myBrithYear;
 
 // -------------------------------------------
 /*
@@ -53,7 +58,8 @@
     
 
 */
-
+let myDescription = "Hello, my name is " + myFullName + " ,and I am " + myAge + ". I am short, with a height of " + myHeight + " inches."
+console.log (myDescription);
 // -------------------------------------------
 
 
