@@ -25,7 +25,7 @@ const myHeight = 62;
     that stores your year of birth
 
 */
-const myBrithYear = 1991;
+const myBirthYear = 1991;
 
 // -------------------------------------------
 /*
@@ -44,7 +44,7 @@ let currentYear = 2018;
     from `myBirthYear` and `curentYear`
 
 */
-const myAge = currentYear - myBrithYear;
+const myAge = currentYear - myBirthYear;
 
 // -------------------------------------------
 /*
