@@ -7,6 +7,7 @@
 
 */
 
+let myFullName = 'Qiuyun Chen';
 
 // -------------------------------------------
 /*
@@ -16,6 +17,8 @@
 
 */
 
+let myHeight = "62 inches";
+
 // -------------------------------------------
 /*
     P3:
@@ -23,6 +26,8 @@
     that stores your year of birth
 
 */
+
+let myBirthYear = 1988;
 
 // -------------------------------------------
 /*
@@ -32,6 +37,8 @@
 
 */
 
+let currentYear = 2018;
+
 // -------------------------------------------
 /*
     P5:
@@ -40,6 +47,8 @@
     from `myBirthYear` and `curentYear`
 
 */
+
+const myAge = currentYear - myBirthYear;
 
 // -------------------------------------------
 /*
@@ -54,6 +63,9 @@
 
 */
 
+let myDescription = 'Hello, my name is ' + myFullName + ' and I am ' + myAge + ' years old.' + " My Height is " + myHeight + '.'
+
+console.log(myDescription);
 // -------------------------------------------
 
 
