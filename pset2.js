@@ -42,3 +42,6 @@ console.log(middleName);
 fullName = firstName + ' ' + middleName+ ' ' + lastName;
 console.log(fullName);
 
+fullName = `${firstName} ${middleName} ${lastName}`;
+console.log(fullName);
+
