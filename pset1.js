@@ -7,6 +7,7 @@
 
 */
 
+const myFullName = 'Vincent Galarza'
 
 // -------------------------------------------
 /*
@@ -16,6 +17,8 @@
 
 */
 
+const myHeight = "5'8"
+
 // -------------------------------------------
 /*
     P3:
@@ -23,6 +26,8 @@
     that stores your year of birth
 
 */
+
+const myBirthYear = "1990"
 
 // -------------------------------------------
 /*
@@ -32,6 +37,8 @@
 
 */
 
+let currentYear = "2018"
+
 // -------------------------------------------
 /*
     P5:
@@ -40,6 +47,8 @@
     from `myBirthYear` and `curentYear`
 
 */
+
+const myAge = currentYear - myBirthYear
 
 // -------------------------------------------
 /*
@@ -54,6 +63,8 @@
 
 */
 
+let myDescription = "Hello, my name is " + myFullName + " and I'm " + myHeight + " tall. I was born in " + myBirthYear + " and I'm currently " + myAge + " years old."
+
 // -------------------------------------------
 
-
+console.log(myDescription)
