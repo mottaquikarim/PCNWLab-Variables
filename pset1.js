@@ -6,7 +6,7 @@
     that stores your full name as a variable
 
 */
-let myFullName = 'Daniel Ashley'
+const myFullName = 'Daniel Ashley'
 
 // -------------------------------------------
 /*
@@ -23,7 +23,7 @@ let myHeight = "72 inches"
     that stores your year of birth
 
 */
-let myBirthYear = 1994
+const myBirthYear = 1994
 // -------------------------------------------
 /*
     P4:
@@ -56,7 +56,6 @@ let myAge = currentYear - myBirthYear
 */
 // -------------------------------------------
 
-let myDescription = 'Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I am ' +  myAge + ' years old.'
+let myDescription = `Hello, my name is '${myFullName}' and I am '${myHeight}'. I am '${myAge}' years old.`
 
 console.log(myDescription)
-console.log(myFullName)

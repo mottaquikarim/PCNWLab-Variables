@@ -11,10 +11,10 @@ let this_is_snake_cased = 'October'
 
 let thisVarHasNumbers111 = 'February'
 // 1. create a string - it should be your first name
-let firstName = 'Daniel '
+const firstName = 'Daniel '
 
 // 2. create another string - it should be your last name
-let lastName = 'Ashley'
+const lastName = 'Ashley'
 
 // 3. create a third string using the first two strings you've defined
 let fullName = firstName + lastName
@@ -22,7 +22,7 @@ let fullName = firstName + lastName
 
 // 4. create a string - it should be your middle name
 
-let middleName = 'Eduardo '
+const middleName = 'Eduardo '
 // 5. redefine the string in step 3. so that it now shows 
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
  fullName = firstName + middleName + lastName
