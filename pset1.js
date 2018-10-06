@@ -70,7 +70,7 @@ let myAge = currentYear - myBirthYear
 
 */
 
-console.log('Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.')
+let myDescription = console.log('Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.')
 // -------------------------------------------
 
 
