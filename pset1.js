@@ -16,7 +16,7 @@ const myFullName = "Osita Igwe";
     that represents your height in inches
 
 */
-const myHeight = 62;
+const myHeightInches = 62;
 
 // -------------------------------------------
 /*
@@ -58,7 +58,7 @@ const myAge = currentYear - myBirthYear;
     
 
 */
-let myDescription = "Hello, my name is " + myFullName + " ,and I am " + myAge + ". I am short, with a height of " + myHeight + " inches."
+let myDescription = `Hello, my name is ${myFullName}, and I am  ${myAge}. I am short - with a height of ${myHeightInches} inches.`
 console.log (myDescription);
 // -------------------------------------------
 
