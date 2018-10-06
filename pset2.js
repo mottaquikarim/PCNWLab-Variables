@@ -26,5 +26,6 @@ myMiddleName = "Chidinma ";
 console.log(myMiddleName);
 // 5. redefine the string in step 3. so that it now shows 
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
-myFirstName += myMiddleName += myLastName;
+myFirstName += myMiddleName += myLastName; 
+//or myFullName = myFirstName + " " + myMiddleName + " " + myLastName;
 console.log(myFirstName);
