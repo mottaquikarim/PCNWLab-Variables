@@ -6,7 +6,7 @@
     that stores your full name as a variable
 
 */
-
+myFullName = "Tarekul Islam"
 
 // -------------------------------------------
 /*
@@ -15,7 +15,7 @@
     that represents your height in inches
 
 */
-
+myHeight = 64
 // -------------------------------------------
 /*
     P3:
@@ -23,7 +23,7 @@
     that stores your year of birth
 
 */
-
+myBirthYear = 1993
 // -------------------------------------------
 /*
     P4:
@@ -31,7 +31,7 @@
     that stores current year
 
 */
-
+currentYear = 2018
 // -------------------------------------------
 /*
     P5:
@@ -40,7 +40,7 @@
     from `myBirthYear` and `curentYear`
 
 */
-
+myAge = currentYear - myBirthYear 
 // -------------------------------------------
 /*
     P6:
@@ -53,7 +53,7 @@
     
 
 */
-
+myDescription = "Hello, my name is " + myFullName + " and I am " + myHeight.toString()
 // -------------------------------------------
 
 
