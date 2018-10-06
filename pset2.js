@@ -12,19 +12,19 @@ console.log(this_is_snake_cased)
 let thisVarHasNumbers111 = 111
 console.log(thisVarHasNumbers111)
 // 1. create a string - it should be your first name
-'Syed'
+let firstName = 'Syed'
 console.log('Syed')
 // 2. create another string - it should be your last name
-'Aziz'
+let lastName = 'Aziz'
 console.log('Aziz')
 // 3. create a third string using the first two strings you've defined
 // it should read [FIRST NAME][SPACE][LAST NAME]
-'Syed', 'Aziz'
-console.log('Syed Aziz')
+
+console.log(firstName + lastName)
 
 // 4. create a string - it should be your middle name
-'Abdul'
+let middleName = 'Abdul'
 console.log('Abdul')
 // 5. redefine the string in step 3. so that it now shows 
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
-console.log('Syed Abdul Aziz')
+console.log(firstName + " " + lastName + " " + middleName)
