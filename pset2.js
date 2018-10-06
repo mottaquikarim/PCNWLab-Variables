@@ -27,4 +27,4 @@ let middleName = ('N/A')
 // 5. redefine the string in step 3. so that it now shows 
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
 
-console.log(`${firstName} ${middleName} ${lastName} `)
+console.log(`${firstName} ${middleName} ${lastName} `);
