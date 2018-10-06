@@ -7,11 +7,10 @@
 
 */
  
-/* 
-P1: 
+ 
 let myFullName = 'Mielyn Acosta'
 
-*/ 
+
 
 // -------------------------------------------
 /*
@@ -21,12 +20,11 @@ let myFullName = 'Mielyn Acosta'
 
 */
 
-/*
-P2:
+
 
  let myHeight = 64;
 
-/*
+
 // -------------------------------------------
 /*
     P3:
@@ -34,13 +32,11 @@ P2:
     that stores your year of birth
 
 */
-/*
-P3: 
+
 
 let myBirthYear = 1988; 
 
 
-*/
 // -------------------------------------------
 /*
     P4:
@@ -48,13 +44,11 @@ let myBirthYear = 1988;
     that stores current year
 
 */
-/*
-P4: 
-
-ley currenYear = 2018;
 
 
-*/
+let currentYear = 2018;
+
+
 // -------------------------------------------
 /*
     P5:
@@ -63,14 +57,12 @@ ley currenYear = 2018;
     from `myBirthYear` and `curentYear`
 
 */
-/*
-P5:
-
-let myAge = currentYear - myAge;
 
 
+let myAge = currentYear - myBirthYear;
 
-*/
+
+
 // -------------------------------------------
 /*
     P6:
@@ -83,14 +75,12 @@ let myAge = currentYear - myAge;
     
 
 */
-/*
-P6:
-
-let myDescription = "Hello, my name is [myFullName] and I am [myAge] years old. 
-                  my height is [myHeight] inches. We are in the year of [currentYear].
 
 
-*/
+let myDescription = "Hello, my name is "  + myFullName + " and I am "  + myAge  + " years old." + 
+                  "my height is" + myHeight + "inches." + " We are in the year of " + currentYear.
+
+  console.log(myDescription); 
 // -------------------------------------------
 
 
