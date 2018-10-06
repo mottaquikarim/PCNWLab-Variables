@@ -7,6 +7,7 @@
 
 */
 
+let myFullName = 'Chuyun Huang';
 
 // -------------------------------------------
 /*
@@ -16,6 +17,8 @@
 
 */
 
+let myHeight = 5.2;
+
 // -------------------------------------------
 /*
     P3:
@@ -24,6 +27,8 @@
 
 */
 
+let myBirthYear = 1992;
+
 // -------------------------------------------
 /*
     P4:
@@ -31,6 +36,7 @@
     that stores current year
 
 */
+let currentYear = 2018;
 
 // -------------------------------------------
 /*
@@ -40,6 +46,9 @@
     from `myBirthYear` and `curentYear`
 
 */
+
+let myAge = currentYear - myBirthYear;
+
 
 // -------------------------------------------
 /*
@@ -53,7 +62,8 @@
     
 
 */
-
+let myDescription= 'Hello, my name is'+ ' ' + myFullName + ', ' + 'and I am' + ' ' + myHeight + ' ' + 'inches tall.'+ 'I am' + ' ' + myAge + 'yrs old.' 
+console.log(myDescription);
 // -------------------------------------------
 
 
