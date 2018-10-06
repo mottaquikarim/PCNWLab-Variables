@@ -5,10 +5,11 @@
     Create a variable called `myFullName` 
     that stores your full name as a variable
 
-    let var myFullName = 'Syed Aziz'
+    
 
 */
 
+let myFullName = 'Syed Aziz'
 
 // -------------------------------------------
 /*
@@ -16,9 +17,9 @@
     Create a variable called `myHeight`
     that represents your height in inches
 
-    let var myHeight = '66 inches'
-
 */
+
+let myHeight = '66 inches'
 
 // -------------------------------------------
 /*
@@ -26,9 +27,11 @@
     Create a variable called `myBirthYear`
     that stores your year of birth
 
-    let var myBirthYear = 1994
+    
 
 */
+
+let myBirthYear = 1994
 
 // -------------------------------------------
 /*
@@ -36,9 +39,10 @@
     Create a variable called `currentYear`
     that stores current year
 
-    let var currentYear = 2018
+    
 
 */
+let currentYear = 2018
 
 // -------------------------------------------
 /*
@@ -47,9 +51,11 @@
     that computes your current age
     from `myBirthYear` and `curentYear`
 
-    let var myAge = currentYear - myBirthYear
+   
 
 */
+
+let myAge = currentYear - myBirthYear
 
 // -------------------------------------------
 /*
@@ -61,10 +67,10 @@
     ie: Hello, my name is [fullName] and I am [myHeight]...
     etc
     
-    console.log('Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.')
 
 */
 
+console.log('Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.')
 // -------------------------------------------
 
 
