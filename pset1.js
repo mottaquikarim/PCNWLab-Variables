@@ -6,7 +6,12 @@
     that stores your full name as a variable
 
 */
+ 
+/* 
+P1: 
+let myFullName = 'Mielyn Acosta'
 
+*/ 
 
 // -------------------------------------------
 /*
@@ -16,6 +21,12 @@
 
 */
 
+/*
+P2:
+
+ let myHeight = 64;
+
+/*
 // -------------------------------------------
 /*
     P3:
@@ -23,7 +34,13 @@
     that stores your year of birth
 
 */
+/*
+P3: 
 
+let myBirthYear = 1988; 
+
+
+*/
 // -------------------------------------------
 /*
     P4:
@@ -31,7 +48,13 @@
     that stores current year
 
 */
+/*
+P4: 
 
+ley currenYear = 2018;
+
+
+*/
 // -------------------------------------------
 /*
     P5:
@@ -40,7 +63,14 @@
     from `myBirthYear` and `curentYear`
 
 */
+/*
+P5:
 
+let myAge = currentYear - myAge;
+
+
+
+*/
 // -------------------------------------------
 /*
     P6:
@@ -53,7 +83,14 @@
     
 
 */
+/*
+P6:
 
+let myDescription = "Hello, my name is [myFullName] and I am [myAge] years old. 
+                  my height is [myHeight] inches. We are in the year of [currentYear].
+
+
+*/
 // -------------------------------------------
 
 
