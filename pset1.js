@@ -8,23 +8,28 @@
 */
 
 
-// -------------------------------------------
+ const myFullName = 'Richard Green';
+console.log(myFullName);
+
 /*
     P2:
     Create a variable called `myHeight`
     that represents your height in inches
 
 */
+const myHeight = "6'1";
+console.log(myHeight);
 
-// -------------------------------------------
+
 /*
     P3:
     Create a variable called `myBirthYear`
     that stores your year of birth
 
 */
+const myBirthYear = 1992;
+console.log(myBirthYear);
 
-// -------------------------------------------
 /*
     P4:
     Create a variable called `currentYear`
@@ -32,7 +37,8 @@
 
 */
 
-// -------------------------------------------
+let currentYear= 2018;
+console.log(currentYear);
 /*
     P5:
     Create a variable called `myAge`
@@ -41,7 +47,8 @@
 
 */
 
-// -------------------------------------------
+let myAge = currentYear - myBirthYear;
+console.log(myAge);
 /*
     P6:
     Create a string called `myDescription`
@@ -54,6 +61,7 @@
 
 */
 
-// -------------------------------------------
+let myDescription = 'hello, my name is ' + myFullName + ' and I am ' + myHeight + ' and I am ' + myAge + ' years old.'
 
 
+console.log(myDescription)
