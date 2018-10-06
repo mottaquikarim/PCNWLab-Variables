@@ -6,7 +6,7 @@
     that stores your full name as a variable
 
 */
-
+let myFullName = 'Abdelwahab Oufkir';
 
 // -------------------------------------------
 /*
@@ -15,6 +15,7 @@
     that represents your height in inches
 
 */
+let myHeight = 73.2;
 
 // -------------------------------------------
 /*
@@ -23,6 +24,7 @@
     that stores your year of birth
 
 */
+let myBirthYear = 1986;
 
 // -------------------------------------------
 /*
@@ -31,6 +33,7 @@
     that stores current year
 
 */
+let curentYear = 2018;
 
 // -------------------------------------------
 /*
@@ -40,7 +43,7 @@
     from `myBirthYear` and `curentYear`
 
 */
-
+let myAge = curentYear - myBirthYear
 // -------------------------------------------
 /*
     P6:
@@ -53,7 +56,9 @@
     
 
 */
+let myDescription = "Hello, my name is " + myFullName + " and I am " + myHeight + " inches. I was born in " + myBirthYear + " and I am currently " + myAge + " years old."
 
+console.log(myDescription);
 // -------------------------------------------
 
 
