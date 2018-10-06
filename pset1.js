@@ -7,6 +7,9 @@
 
 */
 
+/*
+const myFullName = 'Stephaie Durandisse'
+*/
 
 // -------------------------------------------
 /*
@@ -16,6 +19,9 @@
 
 */
 
+/*
+let myHeight = 5'5 + "inches"
+
 // -------------------------------------------
 /*
     P3:
@@ -23,6 +29,10 @@
     that stores your year of birth
 
 */
+
+/*
+const myBirthYear = 1990
+/*
 
 // -------------------------------------------
 /*
@@ -32,6 +42,10 @@
 
 */
 
+/*
+const currentYear = 2018
+*/
+
 // -------------------------------------------
 /*
     P5:
@@ -39,6 +53,10 @@
     that computes your current age
     from `myBirthYear` and `curentYear`
 
+*/
+ 
+/*
+let myAge = currentYear -  myBirthYear
 */
 
 // -------------------------------------------
@@ -56,4 +74,6 @@
 
 // -------------------------------------------
 
+/*
+let myDescription = "Hello, my name is + ' ' + fullName + ' ' + and I am + myHeight"
 
