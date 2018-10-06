@@ -7,6 +7,7 @@
 
 */
 
+const myFullName = "Alexander Onate"
 
 // -------------------------------------------
 /*
@@ -16,6 +17,8 @@
 
 */
 
+const myHeight = 61.2
+
 // -------------------------------------------
 /*
     P3:
@@ -24,6 +27,7 @@
 
 */
 
+const myBirthYear = 1995
 // -------------------------------------------
 /*
     P4:
@@ -32,6 +36,7 @@
 
 */
 
+const currentYear = (new Date()).getFullYear()
 // -------------------------------------------
 /*
     P5:
@@ -40,7 +45,7 @@
     from `myBirthYear` and `curentYear`
 
 */
-
+const myAge = currentYear - myBirthYear
 // -------------------------------------------
 /*
     P6:
@@ -54,6 +59,8 @@
 
 */
 
+const myDescription = "Hi my name is " + myFullName + " my height is " + myHeight + " inches and I am " + myAge + " years old"
 // -------------------------------------------
 
+console.log(myDescription)
 
