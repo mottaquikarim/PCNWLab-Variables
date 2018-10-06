@@ -7,6 +7,8 @@
 
 */
 
+const myFullName = "Karan Taneja"
+
 
 // -------------------------------------------
 /*
@@ -16,6 +18,8 @@
 
 */
 
+const myHeight = 65
+
 // -------------------------------------------
 /*
     P3:
@@ -23,6 +27,8 @@
     that stores your year of birth
 
 */
+
+const myBirthYear = 1993
 
 // -------------------------------------------
 /*
@@ -32,6 +38,8 @@
 
 */
 
+const currentYear = 2018;
+
 // -------------------------------------------
 /*
     P5:
@@ -40,6 +48,8 @@
     from `myBirthYear` and `curentYear`
 
 */
+
+const myAge = currentYear - myBirthYear
 
 // -------------------------------------------
 /*
@@ -54,6 +64,8 @@
 
 */
 
+const myDescription = "Hello, my name is " + myFullName + " and I am " + myHeight + " inches talls. I was born in " + myBirthYear + " so I will be " +  myAge + " in " + currentYear + "."
+
 // -------------------------------------------
 
-
+console.log(myDescription)
