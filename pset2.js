@@ -24,3 +24,13 @@
 
 // 5. redefine the string in step 3. so that it now shows 
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
+let hellowWrold = "Wrong spelling";
+let this_is_snake_cased = "snek";
+let thisVarHasNumbers111 = 3;
+let f_name = "Kevin";
+let l_name = "Zheng";
+let fl_name = f_name + " " + l_name;
+console.log(fl_name);
+let m_name = "";
+let fullName = f_name + " " + m_name + " " + l_name;
+console.log(fullName);

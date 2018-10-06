@@ -55,5 +55,10 @@
 */
 
 // -------------------------------------------
-
-
+let myFullName = "Kevin Zheng";
+let myHeight = 5.8;
+let myBirthyear = 1995;
+let currentYear = 2018;
+let myAge = currentYear - myBirthyear;
+let myDescription = "Hello, my name is " + myFullName + " and I am " + myHeight + " inches. I am " + myAge + " years old.";
+console.log(myDescription);
