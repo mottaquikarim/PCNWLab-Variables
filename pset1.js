@@ -7,6 +7,7 @@
 
 */
 
+let myFullName = 'Johnny Rivera';
 
 // -------------------------------------------
 /*
@@ -16,6 +17,9 @@
 
 */
 
+let myHeight = '67 inches';
+
+
 // -------------------------------------------
 /*
     P3:
@@ -23,6 +27,8 @@
     that stores your year of birth
 
 */
+
+let myBirthYear = 1989;
 
 // -------------------------------------------
 /*
@@ -32,6 +38,8 @@
 
 */
 
+let currentYear = 2018;
+
 // -------------------------------------------
 /*
     P5:
@@ -40,6 +48,8 @@
     from `myBirthYear` and `curentYear`
 
 */
+
+let myAge = currentYear - myBirthYear;
 
 // -------------------------------------------
 /*
@@ -53,6 +63,10 @@
     
 
 */
+
+let myDescription = 'Hello, my name is ' + myFullName + ' and I am ' + myHeight + ' tall. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.' 
+
+console.log(myDescription);
 
 // -------------------------------------------
 
