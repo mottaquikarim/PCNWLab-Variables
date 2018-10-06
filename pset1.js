@@ -8,9 +8,9 @@
 */
 
 /*
-const myFullName = Stephaie Durandisse
+const myFullName = 'Stephaie Durandisse'
 */
-console.log(myFullName)
+
 // -------------------------------------------
 /*
     P2:
@@ -20,7 +20,7 @@ console.log(myFullName)
 */
 
 /*
-let myHeight = 5'5
+let myHeight = 5'5 + "inches"
 
 // -------------------------------------------
 /*
@@ -56,7 +56,7 @@ const currentYear = 2018
 */
  
 /*
-let myAge = mybirthYear + currentYear
+let myAge = currentYear -  myBirthYear
 */
 
 // -------------------------------------------
@@ -75,6 +75,5 @@ let myAge = mybirthYear + currentYear
 // -------------------------------------------
 
 /*
-let myDescription = "Hello, my name is [fullName] and I am [myHeight] and love to play basketball."
-
+let myDescription = "Hello, my name is + ' ' + fullName + ' ' + and I am + myHeight"
 
