@@ -5,8 +5,11 @@
     Create a variable called `myFullName` 
     that stores your full name as a variable
 
+    
+
 */
 
+let myFullName = 'Syed Aziz'
 
 // -------------------------------------------
 /*
@@ -16,13 +19,19 @@
 
 */
 
+let myHeight = '66 inches'
+
 // -------------------------------------------
 /*
     P3:
     Create a variable called `myBirthYear`
     that stores your year of birth
 
+    
+
 */
+
+let myBirthYear = 1994
 
 // -------------------------------------------
 /*
@@ -30,7 +39,10 @@
     Create a variable called `currentYear`
     that stores current year
 
+    
+
 */
+let currentYear = 2018
 
 // -------------------------------------------
 /*
@@ -39,7 +51,11 @@
     that computes your current age
     from `myBirthYear` and `curentYear`
 
+   
+
 */
+
+let myAge = currentYear - myBirthYear
 
 // -------------------------------------------
 /*
@@ -54,6 +70,8 @@
 
 */
 
+let myDescription = console.log('Hello, my name is ' + myFullName + ' and I am ' + myHeight + '. I was born in ' + myBirthYear + ' and I am ' + myAge + ' years old.')
+myDescription
+
 // -------------------------------------------
-
-
+ 
