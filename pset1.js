@@ -7,6 +7,8 @@
 
 */
 
+const myFullName = "Srirupa Datta"
+console.log(myFullName);
 
 // -------------------------------------------
 /*
@@ -16,6 +18,11 @@
 
 */
 
+const heightFeet = 5;
+const heightInches = 6;
+const myHeight = heightFeet + " feet, " + heightInches + " inches";
+console.log(myHeight);
+
 // -------------------------------------------
 /*
     P3:
@@ -24,6 +31,8 @@
 
 */
 
+const myBirthYear = 1987
+console.log(myBirthYear);
 // -------------------------------------------
 /*
     P4:
@@ -32,6 +41,8 @@
 
 */
 
+let currentYear = 2018
+console.log(currentYear);
 // -------------------------------------------
 /*
     P5:
@@ -41,6 +52,8 @@
 
 */
 
+let myAge = ((currentYear - myBirthYear) - 1)
+console.log(myAge);
 // -------------------------------------------
 /*
     P6:
@@ -53,6 +66,9 @@
     
 
 */
+
+let myDescription = ("Hello my name is " + myFullName + ". I'm " + myAge + " years old and " +myHeight + " tall.");
+console.log(myDescription);
 
 // -------------------------------------------
 
