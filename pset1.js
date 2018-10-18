@@ -10,8 +10,6 @@ let myFullName= "Jennifer";
 console.log (myFullName);
 
 
-
-
 // -------------------------------------------
 /*
     P2:
