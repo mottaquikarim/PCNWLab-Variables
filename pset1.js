@@ -6,6 +6,8 @@
     that stores your full name as a variable
 
 */
+let myFullName= "Jennifer";
+console.log (myFullName);
 
 
 // -------------------------------------------
@@ -15,6 +17,8 @@
     that represents your height in inches
 
 */
+let myHeight="5'4";
+console.log (myHeight);
 
 // -------------------------------------------
 /*
@@ -23,7 +27,8 @@
     that stores your year of birth
 
 */
-
+let myBirthYear=1988;
+console.log (myBirthYear);
 // -------------------------------------------
 /*
     P4:
@@ -31,6 +36,8 @@
     that stores current year
 
 */
+let mycurrentYear="2018";
+console.log (mycurrentYear);
 
 // -------------------------------------------
 /*
@@ -40,6 +47,9 @@
     from `myBirthYear` and `curentYear`
 
 */
+let myAge=mycurrentYear-myBirthYear;
+console.log (myAge);
+
 
 // -------------------------------------------
 /*
@@ -53,7 +63,8 @@
     
 
 */
-
+let myDescription= "Hello my name is " + myFullName + " and I am " + myHeight + " I am " + myAge + " years old."
+console.log (myDescription);
 // -------------------------------------------
 
 
